@@ -1,13 +1,7 @@
 ## Welcome to GitHub Pages
 use pulldown_cmark::{html, Parser};
 
-/// In goes markdown text; out comes HTML text.
-fn mark_to_html(markdown: &str) -> String {
-    let parser = Parser::new(&markdown);
-    let mut buffer = String::new();
-    html::push_html(&mut buffer, parser);
-    buffer
-}
+
 You can use the [editor on GitHub](https://github.com/Trump2020forE/WinslowProject/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
